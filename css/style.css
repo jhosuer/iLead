@@ -7482,13 +7482,13 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         content: '';
         opacity: .99;
-        background: #448ef6;
-        background: -moz-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+        background: #273773;
+        background: -moz-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
         background: -webkit-gradient(left bottom, right top, color-stop(0%, #29bae4), color-stop(100%, #ee76ad));
-        background: -webkit-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: -o-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: -ms-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+        background: -webkit-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+        background: -o-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+        background: -ms-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+        background: linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
@@ -7787,9 +7787,16 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     position: relative;
     padding: 15em 0;
-    background: #78d5ef; }
+    background: #8bd7bc; 
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #8bd7bc), color-stop(100%, #273773));
+    background: -webkit-linear-gradient(45deg, #8bd7bc 0%, #273773 100%);
+    background: -o-linear-gradient(45deg, #8bd7bc 0%, #273773 100%);
+    background: -ms-linear-gradient(45deg, #8bd7bc 0%, #273773 100%);
+    background: linear-gradient(45deg, #8bd7bc 0%, #273773 100%);
+  }
     .ftco-section-parallax .parallax-img.parallax-img-2 {
       background: #ee76ad; }
+      
 
 .block-3 .text, .block-3 .image {
   width: 100%;
@@ -8034,7 +8041,13 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #29bae4;
+  background: #273773;
+  background: -moz-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #29bae4), color-stop(100%, #ee76ad));
+  background: -webkit-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+  background: -o-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+  background: -ms-linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
+  background: linear-gradient(45deg, #273773 0%, #8bd7bc 100%);
   padding: 12em 0 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8284,7 +8297,7 @@ textarea.form-control {
   opacity: 0; }
 
 .ftco-counter {
-  background: #ee76ad;
+  background: #BD897E;
   padding: 15em 0; }
   .ftco-counter .text strong.number {
     font-weight: 400;

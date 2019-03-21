@@ -13,13 +13,13 @@ $quarternary: #efac78;
 
 
 @mixin gradient-background(){
-	background: rgba(68,142,246,1);
-	background: -moz-linear-gradient(45deg, rgba(41,186,228,1) 0%, rgba(238,118,173,1) 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(41,186,228,1)), color-stop(100%, rgba(238,118,173,1)));
-	background: -webkit-linear-gradient(45deg, rgba(41,186,228,1) 0%, rgba(238,118,173,1) 100%);
-	background: -o-linear-gradient(45deg, rgba(41,186,228,1) 0%, rgba(238,118,173,1) 100%);
-	background: -ms-linear-gradient(45deg, rgba(41,186,228,1) 0%, rgba(238,118,173,1) 100%);
-	background: linear-gradient(45deg, rgba(41,186,228,1) 0%, rgba(238,118,173,1) 100%);
+	background: rgb(39,55,115);
+	background: -moz-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(39,55,115)), color-stop(100%, rgb(139, 215, 188)));
+	background: -webkit-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
+	background: -o-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
+	background: -ms-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
+	background: linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
 }
 

@@ -6,21 +6,21 @@ $font-primary: 'Work Sans',Arial, sans-serif;
 $white: #fff;
 $black: #404044;
 
-$primary: #78d5ef;
-$secondary: #79efb4;
+$primary: #094784;
+$secondary: #5294CC;
 $tertiary: #ee76ad;
-$quarternary: #efac78;
+$quarternary: #FF9722;
 
 
 @mixin gradient-background(){
-	background: rgb(39,55,115);
-	background: -moz-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(39,55,115)), color-stop(100%, rgb(139, 215, 188)));
-	background: -webkit-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
-	background: -o-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
-	background: -ms-linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
-	background: linear-gradient(45deg, rgb(39,55,115) 0%, rgb(139, 215, 188) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
+	background: rgb(9, 71, 132);
+	background: -moz-linear-gradient(45deg, rgb(9, 71, 132) 0%, rgb(82, 148, 204) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(9, 71, 132)), color-stop(100%, rgb(82, 148, 204)));
+	background: -webkit-linear-gradient(45deg, rgb(9, 71, 132) 0%, rgb(82, 148, 204) 100%);
+	background: -o-linear-gradient(45deg, rgb(9, 71, 132) 0%, rgb(82, 148, 204) 100%);
+	background: -ms-linear-gradient(45deg, rgb(9, 71, 132) 0%, rgb(82, 148, 204) 100%);
+	background: linear-gradient(45deg, rgb(9, 71, 132) 0%, rgb(82, 148, 204) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5294cc', endColorstr='#094784', GradientType=1 );
 }
 
 @mixin border-radius($radius) {
